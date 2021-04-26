@@ -44,7 +44,7 @@ public class EmployeeService extends Util implements EmployeeDAO {
     public void update(Employee employee) throws SQLException {
         PreparedStatement preparedStatement = null;
 
-        String sql = "UPDATE EMPLOYEE SET ID=?, FIRST_NAME=?, LAST_NAME=?, POSITION=? WHERE ID=?";
+        String sql = "UPDATE TBL_EMPLOYEES SET ID=?, FIRST_NAME=?, LAST_NAME=?, POSITION=? WHERE ID=?";
 
         try {
             preparedStatement = connection.prepareStatement(sql);
@@ -75,7 +75,7 @@ public class EmployeeService extends Util implements EmployeeDAO {
     public void remove(Employee employee) throws SQLException {
         PreparedStatement preparedStatement = null;
 
-        String sql = "DELETE FROM EMPLOYEE WHERE ID=?";
+        String sql = "DELETE FROM TBL_EMPLOYEES WHERE ID=?";
 
         try {
             preparedStatement = connection.prepareStatement(sql);

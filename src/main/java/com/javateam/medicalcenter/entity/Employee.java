@@ -7,9 +7,11 @@ import org.springframework.data.annotation.Id;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import java.math.BigDecimal;
 
 @AllArgsConstructor
-@Getter @Setter
+@Getter
+@Setter
 @EqualsAndHashCode
 @ToString
 
@@ -17,10 +19,12 @@ import javax.persistence.GeneratedValue;
 //@Id @GeneratedValue
 public class Employee {
 
-    private long id;
+    private long employeeId;
     private String firstName;
     private String lastName;
     private String employeePosition;
+    private BigDecimal salary;
+    private int hireDate;
 
 
 }
