@@ -5,6 +5,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.sql.Time;
+import java.util.List;
 
 @Entity
 @Table(name="USERS")
@@ -35,7 +36,7 @@ public abstract class User {
     @Column(name = "MAIL")
     private String email;
 
-//    @OneToMany(fetch = FetchType.EAGER)
-//    @JoinColumn(name = "USER_ID")
-//    private List<Appointment> appointments;
+    @OneToMany(fetch = FetchType.EAGER)
+    @JoinColumn(name = "USER_ID")
+    private List<Appointment> appointments;
 }
