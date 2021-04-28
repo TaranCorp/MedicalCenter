@@ -17,8 +17,8 @@ import java.util.List;
 public abstract class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "USER_ID")
-    private Long user_id;
+    @Column(name = "ID")
+    private Long id;
     @Column(name = "LOGIN")
     private String login;
     @Column(name = "PASSWORD")
@@ -36,7 +36,4 @@ public abstract class User {
     @Column(name = "MAIL")
     private String email;
 
-    @OneToMany(fetch = FetchType.EAGER)
-    @JoinColumn(name = "USER_ID")
-    private List<Appointment> appointments;
 }
