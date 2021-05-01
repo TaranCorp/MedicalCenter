@@ -17,17 +17,24 @@ import java.math.BigDecimal;
 
 //@Entity
 //@Id @GeneratedValue
+//Extends User
 public class Employee {
 
-    private long employeeId;
-    private String firstName;
-    private String lastName;
+    Employee employee = new Employee();
+
     private String employeePosition;
     private BigDecimal salary;
     private int hireDate;
 
+    public Employee () {
+
+    }
+
+
+
 
 }
+
 
 
 

@@ -7,17 +7,24 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
+	<context:property-placeholder location="classpath:employee.properties" />
 	
     <!-- Define your beans here -->
     
     <!-- define the dependency -->
-    <bean id="myMedicalCenter"
-    		class="com.javateam.medicalcenter.MedicalCenterApplication">
-    	</bean>
+    <bean id="myEmployee"
+    		class="com.javateam.medicalcenter.entity.Employee">
+
+		<property name="employee" ref="myEmployee" />
+		<property name="employeePosition" value="${position}" />
+
+
+	</bean>
     
- 	<bean id="myUser"
- 		class="com.javateam.medicalcenter.entity.Employee">
- 	</bean>
+<!-- 	<bean id="myUser"-->
+<!-- 		class="com.javateam.medicalcenter.entity.Employee">-->
+
+<!-- 	</bean>-->
 
     <!--
     <bean id="myUser"
