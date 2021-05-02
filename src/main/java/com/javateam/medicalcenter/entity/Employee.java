@@ -20,7 +20,6 @@ import java.math.BigDecimal;
 //Extends User
 public class Employee {
 
-    Employee employee = new Employee();
 
     private String employeePosition;
     private BigDecimal salary;
