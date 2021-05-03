@@ -10,30 +10,20 @@
 	<context:property-placeholder location="classpath:employee.properties" />
 	
     <!-- Define your beans here -->
-    
-    <!-- define the dependency -->
-    <bean id="myEmployee"
-    		class="com.javateam.medicalcenter.entity.Employee"
-	scope="singleton">
-
+<!--	<bean id="myEmployee"-->
+<!--		  class="com.javateam.medicalcenter.entity.Employee"-->
+<!--		  scope="prototype">-->
 
 <!--		<property name="employeePosition" value="${position}"/>-->
 <!--		<property name="hireDate" value="${hireDate}"/>-->
 <!--		<property name="salary" value="${empl.salary}"/>-->
 
+<!--	</bean>-->
 
-	</bean>
+    <!-- define the dependency -->
+
     
-<!-- 	<bean id="myUser"-->
-<!-- 		class="com.javateam.medicalcenter.entity.Employee">-->
 
-<!-- 	</bean>-->
-
-    <!--
-    <bean id="myUser"
-        class="com.javateam.medicalcenter.entity.Doctor">
-    </bean>
-    -->
 
 </beans>
 

@@ -14,9 +14,12 @@ public class Domain {
 
         Util util = new Util();
         util.getConnection();
+        EmployeeService employeeService = new EmployeeService();
 
-
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        Employee surgeon = new Employee("Surgeon", BigDecimal.valueOf(1200), 2020);
+        employeeService.add(surgeon);
+        ClassPathXmlApplicationContext context =
+                new ClassPathXmlApplicationContext("applicationContext.xml");
         Employee doctor = context.getBean("myEmployee", Employee.class);
         EmployeeService service = new EmployeeService();
         Employee newDoctor = new Employee ("Surgeon", BigDecimal.valueOf(1200), 2020);

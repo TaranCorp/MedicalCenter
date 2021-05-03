@@ -1,4 +1,4 @@
-package com.javateam.medicalcenter.DAO;
+package com.javateam.medicalcenter.repository;
 
 import com.javateam.medicalcenter.entity.Employee;
 import java.sql.SQLException;
