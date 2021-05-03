@@ -7,18 +7,20 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
+	<context:component-scan base-package="com.javateam.medicalcenter" />
 	<context:property-placeholder location="classpath:employee.properties" />
-	
+
+
     <!-- Define your beans here -->
-<!--	<bean id="myEmployee"-->
-<!--		  class="com.javateam.medicalcenter.entity.Employee"-->
-<!--		  scope="prototype">-->
+	<bean id="myEmployee"
+		  class="com.javateam.medicalcenter.entity.Employee"
+		  scope="prototype">
 
 <!--		<property name="employeePosition" value="${position}"/>-->
 <!--		<property name="hireDate" value="${hireDate}"/>-->
 <!--		<property name="salary" value="${empl.salary}"/>-->
 
-<!--	</bean>-->
+	</bean>
 
     <!-- define the dependency -->
 

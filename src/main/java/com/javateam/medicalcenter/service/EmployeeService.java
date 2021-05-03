@@ -3,6 +3,8 @@ package com.javateam.medicalcenter.service;
 import com.javateam.medicalcenter.repository.EmployeeDAO;
 import com.javateam.medicalcenter.Util;
 import com.javateam.medicalcenter.entity.Employee;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.sql.*;
 

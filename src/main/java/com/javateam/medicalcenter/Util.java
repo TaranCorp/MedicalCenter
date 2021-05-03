@@ -1,9 +1,12 @@
 package com.javateam.medicalcenter;
 
+import org.springframework.stereotype.Service;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+@Service
 public class Util {
 
     private static final String DB_DRIVER = "org.h2.Driver";

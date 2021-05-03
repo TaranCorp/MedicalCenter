@@ -1,5 +1,6 @@
 package com.javateam.medicalcenter.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -14,6 +15,7 @@ import java.util.List;
 // W dziedziczących klasach dodajemy @DiscriminatorValue("nazwa_typu_usera) nad każdą klasą
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 public abstract class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
