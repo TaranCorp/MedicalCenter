@@ -17,7 +17,7 @@ import java.sql.Time;
 @ToString
 //@Table(name="TBL_EMPLOYEES")
 //@Id
-//@GeneratedValue
+@GeneratedValue
 @Entity
 @Component("myEmployee")
 @DiscriminatorValue("Employee")
