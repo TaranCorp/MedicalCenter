@@ -13,21 +13,17 @@ import java.sql.Time;
 @AllArgsConstructor
 @Getter
 @Setter
-@EqualsAndHashCode
-@ToString
-//@Table(name="TBL_EMPLOYEES")
-//@Id
-//@GeneratedValue
-@Entity
-@Component("myEmployee")
-@DiscriminatorValue("Employee")
-public class Employee extends User {
 
-    //    @Column(name = "POSITION")
+@Table(name="TBL_EMPLOYEES")
+@DiscriminatorValue("Employee")
+@Entity
+public @Data
+class Employee extends User {
+
+    @Id
+    @GeneratedValue (strategy = GenerationType.AUTO)
     private String employeePosition;
-    //    @Column(name = "SALARY")
     private BigDecimal salary;
-    //    @Column(name = "HIRE_DATE")
     private int hireDate;
 
     public Employee() {

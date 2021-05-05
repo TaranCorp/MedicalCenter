@@ -10,3 +10,5 @@ public interface AppointmentRepository extends CrudRepository<Appointment, Long>
 
     Iterable<Appointment> findByDoctor(Doctor doctor);
 }
+
+
