@@ -14,6 +14,19 @@ public class AppointmentService {
         this.appointmentRepository = appointmentRepository;
     }
 
+    Appointment addAppointment(Appointment appointment) {
+        //todo: check if exists
+        return appointmentRepository.save(appointment);
+    }
+
+    Iterable<Appointment> findAll() {
+        return appointmentRepository.findAll();
+    }
+
+    Appointment findById(Long id) {
+        return appointmentRepository.findById(id).orElse(null);
+    }
+
     Iterable<Appointment> findByPatient(Patient patient) {
         return appointmentRepository.findByPatient(patient);
     }

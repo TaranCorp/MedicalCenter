@@ -1,14 +1,12 @@
 package com.javateam.medicalcenter.service;
 
-import com.javateam.medicalcenter.repository.EmployeeDAO;
+import com.javateam.medicalcenter.repository.EmployeeRepository;
 import com.javateam.medicalcenter.Util;
 import com.javateam.medicalcenter.entity.Employee;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import java.sql.*;
 
-public class EmployeeService extends Util implements EmployeeDAO {
+public class EmployeeService extends Util implements EmployeeRepository {
 
     private Connection connection = getConnection();
 
@@ -103,3 +101,6 @@ public class EmployeeService extends Util implements EmployeeDAO {
 
     }
 }
+
+
+
