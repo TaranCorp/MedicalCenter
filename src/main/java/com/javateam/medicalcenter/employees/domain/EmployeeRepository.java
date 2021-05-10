@@ -1,4 +1,4 @@
-package com.javateam.medicalcenter.employees.infrastructure;
+package com.javateam.medicalcenter.employees.domain;
 
 import com.javateam.medicalcenter.employees.domain.Employee;
 

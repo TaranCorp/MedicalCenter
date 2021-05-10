@@ -1,11 +1,11 @@
 package com.javateam.medicalcenter.employees.infrastructure;
 
 import com.javateam.medicalcenter.employees.domain.Employee;
+import com.javateam.medicalcenter.employees.domain.EmployeeRepository;
 import com.javateam.medicalcenter.users.domain.UserRepository;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
 
-import java.sql.SQLException;
 import java.util.List;
 
 @Repository

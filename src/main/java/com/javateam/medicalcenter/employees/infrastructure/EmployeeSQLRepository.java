@@ -2,6 +2,7 @@ package com.javateam.medicalcenter.employees.infrastructure;
 
 import com.javateam.medicalcenter.Util;
 import com.javateam.medicalcenter.employees.domain.Employee;
+import com.javateam.medicalcenter.employees.domain.EmployeeRepository;
 import org.springframework.stereotype.Repository;
 
 import java.sql.*;
