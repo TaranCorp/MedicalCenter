@@ -12,7 +12,7 @@ import java.util.List;
 @Table(name="USERS")
 @Inheritance(strategy= InheritanceType.JOINED)
 @DiscriminatorColumn(name = "USER_TYPE", discriminatorType = DiscriminatorType.STRING)
-// In the child classes add @DiscriminatorValue("name_type_user) at each class.
+// Add @DiscriminatorValue("name_type_user) at each child-class.
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
