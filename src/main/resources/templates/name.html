@@ -1,0 +1,28 @@
+<!--Make sure the templates name is mathcning return value of a string
+ (return "name")-->
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Framework Course</title>
+</head>
+<body>
+<h1>Employees List</h1>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Surename</th>
+    </tr>
+    <tr th:each="employee : ${employees}">
+        <td th:text="${employee.id}">123</td>
+        <td th:text="${employee.name}">Brian</td>
+        <td th:text="${employee.surename}">Clement</td>
+<!--        <td th:text="${employee.publisher.name}">Wrox</td>-->
+    </tr>
+</table>
+
+</body>
+</html>

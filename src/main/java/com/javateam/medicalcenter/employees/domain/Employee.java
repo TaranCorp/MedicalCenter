@@ -1,21 +1,23 @@
 package com.javateam.medicalcenter.employees.domain;
 
+//import org.hibernate.boot.model.naming.PhysicalNamingStrategy;
+
 import com.javateam.medicalcenter.appointments.domain.Appointment;
 import com.javateam.medicalcenter.users.domain.User;
 import lombok.*;
-import org.hibernate.boot.model.naming.PhysicalNamingStrategy;
 import org.springframework.context.annotation.Scope;
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.sql.Time;
+import java.util.HashSet;
+import java.util.Set;
 
-@Table(name = "EMPLOYEES")
 @DiscriminatorValue("Employee")
 @Entity
 @Data
 @Scope("prototype")
 //@Setter(value=AccessLevel.NONE)
-public abstract class Employee extends User implements PhysicalNamingStrategy {
+public class Employee extends User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -43,8 +45,11 @@ public abstract class Employee extends User implements PhysicalNamingStrategy {
     private String email;
 
     @OneToMany
-    @JoinColumn(name = "id", nullable = false)
-    private Appointment appointment;
+    @JoinColumn
+    private Set<Appointment> appointment = new HashSet<>();
+
+
+
 
 }
 

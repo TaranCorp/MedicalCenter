@@ -11,6 +11,8 @@ import java.util.Optional;
 @Service
 @AllArgsConstructor
 public class EmployeeService implements EmployeeCatalogUseCase {
+
+
     private final EmployeeRepository repository;
 
     @Override
@@ -37,5 +39,7 @@ public class EmployeeService implements EmployeeCatalogUseCase {
     public void removeById(Long id) {
 
     }
+
+
 }
 

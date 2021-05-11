@@ -13,12 +13,16 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 @Repository
 @Primary
 @AllArgsConstructor
 public class MemoryEmployeeRepository implements EmployeeRepository {
     private final UserRepository userRepository;
+    private static final Logger LOGGER = LoggerFactory.getLogger(MemoryEmployeeRepository.class);
 
     @Override
     public Employee save(Employee employee) {
