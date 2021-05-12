@@ -1,6 +1,5 @@
 package com.javateam.medicalcenter.users.infrastructure;
 
-import com.javateam.medicalcenter.employees.domain.Employee;
 import com.javateam.medicalcenter.users.domain.User;
 import com.javateam.medicalcenter.users.domain.UserRepository;
 import org.springframework.context.annotation.Primary;

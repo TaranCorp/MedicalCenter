@@ -2,18 +2,23 @@ package com.javateam.medicalcenter.employees.application;
 
 import com.javateam.medicalcenter.employees.application.port.EmployeeCatalogUseCase;
 import com.javateam.medicalcenter.employees.domain.Employee;
-import com.javateam.medicalcenter.employees.infrastructure.EmployeeSQLRepository;
+import com.javateam.medicalcenter.employees.domain.EmployeeRepository;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Value;
 import org.springframework.stereotype.Service;
 
+import javax.persistence.Column;
+import java.math.BigDecimal;
+import java.sql.Time;
+import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
 @Service
 @AllArgsConstructor
 public class EmployeeService implements EmployeeCatalogUseCase {
-
-    private final EmployeeSQLRepository repository;
+    private final EmployeeRepository repository;
 
     @Override
     public List<Employee> findAll() {
@@ -40,3 +45,4 @@ public class EmployeeService implements EmployeeCatalogUseCase {
 
     }
 }
+
