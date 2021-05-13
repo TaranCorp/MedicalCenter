@@ -16,6 +16,7 @@ public class EmployeeSQLRepository extends Util implements EmployeeRepository {
 
     private Connection connection = getConnection();
 
+
     @Override
     public Optional<Employee> getById(Long id) {
         return Optional.empty();
@@ -32,11 +33,11 @@ public class EmployeeSQLRepository extends Util implements EmployeeRepository {
     public Employee save(Employee employee) throws SQLException {
 
         PreparedStatement preparedStatement = null;
-        String sql = "INSERT INTO TBL_EMPLOYEES (FIRST_NAME, FAMILY_NAME, POSITION, HIRE_DATE, SALARY) " + "VALUES (?,?,?,?,?,?)";
+        String sqlQuery = "INSERT INTO TBL_EMPLOYEES (FIRST_NAME, FAMILY_NAME, POSITION, HIRE_DATE, SALARY) " + "VALUES (?,?,?,?,?,?)";
 
 
         try {
-            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement = connection.prepareStatement(sqlQuery);
 
             preparedStatement.setString(1, employee.getName());
             preparedStatement.setString(2, employee.getSurname());
@@ -64,15 +65,16 @@ public class EmployeeSQLRepository extends Util implements EmployeeRepository {
     public UpdateEmployeeResponse updateEmployee(UpdateEmployeeCommand command) throws SQLException {
         PreparedStatement preparedStatement = null;
 
-        String sql = "UPDATE TBL_EMPLOYEES SET " +
+        String sqlQuery = "UPDATE TBL_EMPLOYEES SET " +
 //                "ID=?, " +
                 "FIRST_NAME=?, LAST_NAME=?, POSITION=?, HIRE_DATE=?, SALARY=? WHERE ID=?";
 
         try {
-            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement = connection.prepareStatement(sqlQuery);
 
 // I think we shouldn't be able to set Id
 //            preparedStatement.setLong(1, command.getId());
+// Agree, it should be a generated, unique, read-only number
             preparedStatement.setString(1, command.getName());
             preparedStatement.setString(2, command.getSurname());
             preparedStatement.setString(3, command.getEmployeePosition());
@@ -99,10 +101,10 @@ public class EmployeeSQLRepository extends Util implements EmployeeRepository {
     public void removeById(Employee employee) throws SQLException {
         PreparedStatement preparedStatement = null;
 
-        String sql = "DELETE FROM TBL_EMPLOYEES WHERE ID=?";
+        String sqlQuery = "DELETE FROM TBL_EMPLOYEES WHERE ID=?";
 
          try {
-            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement = connection.prepareStatement(sqlQuery);
 
             preparedStatement.setLong(1, employee.getId());
 
