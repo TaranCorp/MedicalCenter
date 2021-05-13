@@ -1,29 +1,29 @@
-package com.javateam.medicalcenter.service;
+package com.javateam.medicalcenter.appointments.infrastructure;
 
-import com.javateam.medicalcenter.entity.Appointment;
-import com.javateam.medicalcenter.entity.Doctor;
-import com.javateam.medicalcenter.entity.Patient;
-import com.javateam.medicalcenter.repository.AppointmentRepository;
+import com.javateam.medicalcenter.appointments.domain.Appointment;
+import com.javateam.medicalcenter.employees.domain.Doctor;
+import com.javateam.medicalcenter.patients.domain.Patient;
+import com.javateam.medicalcenter.appointments.domain.AppointmentRepository;
 import org.springframework.stereotype.Service;
 
 @Service
-public class AppointmentService {
+public class MemoryAppointmentRepository {
     private final AppointmentRepository appointmentRepository;
 
-    public AppointmentService(AppointmentRepository appointmentRepository) {
+    public MemoryAppointmentRepository(AppointmentRepository appointmentRepository) {
         this.appointmentRepository = appointmentRepository;
     }
 
-    Appointment addAppointment(Appointment appointment) {
+    public Appointment addAppointment(Appointment appointment) {
         //todo: check if exists
         return appointmentRepository.save(appointment);
     }
 
-    Iterable<Appointment> findAll() {
+    public Iterable<Appointment> findAll() {
         return appointmentRepository.findAll();
     }
 
-    Appointment findById(Long id) {
+    public Appointment findById(Long id) {
         return appointmentRepository.findById(id).orElse(null);
     }
 

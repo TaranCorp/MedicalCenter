@@ -1,8 +1,7 @@
-package com.javateam.medicalcenter.repository;
+package com.javateam.medicalcenter.appointments.domain;
 
-import com.javateam.medicalcenter.entity.Appointment;
-import com.javateam.medicalcenter.entity.Doctor;
-import com.javateam.medicalcenter.entity.Patient;
+import com.javateam.medicalcenter.employees.domain.Doctor;
+import com.javateam.medicalcenter.patients.domain.Patient;
 import org.springframework.data.repository.CrudRepository;
 
 public interface AppointmentRepository extends CrudRepository<Appointment, Long> {

@@ -1,4 +1,4 @@
-package com.javateam.medicalcenter.entity;
+package com.javateam.medicalcenter.users.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -12,7 +12,7 @@ import java.util.List;
 @Table(name="USERS")
 @Inheritance(strategy= InheritanceType.JOINED)
 @DiscriminatorColumn(name = "USER_TYPE", discriminatorType = DiscriminatorType.STRING)
-// Add @DiscriminatorValue("name_type_user) at each child-class.
+// Add @DiscriminatorValue("type_of_user) at each child-class that follows.
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -25,17 +25,5 @@ public abstract class User {
     private String login;
     @Column(name = "PASSWORD")
     private String password;
-    @Column(name = "FIRST_NAME")
-    private String name;
-    @Column(name = "FAMILY_NAME")
-    private String surname;
-    @Column(name = "PESEL")
-    private Long pesel;
-    @Column(name = "DATE_OF_BIRTH")
-    private Time dateOfBirth;
-    @Column(name = "SEX")
-    private boolean isMale;
-    @Column(name = "MAIL")
-    private String email;
 
 }

@@ -1,9 +1,9 @@
-package com.javateam.medicalcenter.entity;
+package com.javateam.medicalcenter.appointments.domain;
 
-import lombok.AllArgsConstructor;
+import com.javateam.medicalcenter.employees.domain.Doctor;
+import com.javateam.medicalcenter.patients.domain.Patient;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.internal.build.AllowPrintStacktrace;
 
 import javax.persistence.*;
 import java.time.LocalDate;

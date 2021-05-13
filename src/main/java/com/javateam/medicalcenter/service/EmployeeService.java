@@ -69,10 +69,10 @@ public class EmployeeService extends Util {
     public void update(Employee employee) throws SQLException {
         PreparedStatement preparedStatement = null;
 
-        String sqlData = "UPDATE TBL_EMPLOYEES SET ID=?, FIRST_NAME=?, LAST_NAME=?, POSITION=?, HIRE_DATE=?, SALARY=? WHERE ID=?";
+        String sqlQuery = "UPDATE TBL_EMPLOYEES SET ID=?, FIRST_NAME=?, LAST_NAME=?, POSITION=?, HIRE_DATE=?, SALARY=? WHERE ID=?";
 
         try {
-            preparedStatement = connection.prepareStatement(sqlData);
+            preparedStatement = connection.prepareStatement(sqlQuery);
 
 //
             preparedStatement.setLong(1, employee.getId());
@@ -101,10 +101,10 @@ public class EmployeeService extends Util {
     public void remove(Employee employee) throws SQLException {
         PreparedStatement preparedStatement = null;
 
-        String sqlData = "DELETE FROM TBL_EMPLOYEES WHERE ID=?";
+        String sqlQuery = "DELETE FROM TBL_EMPLOYEES WHERE ID=?";
 
         try {
-            preparedStatement = connection.prepareStatement(sqlData);
+            preparedStatement = connection.prepareStatement(sqlQuery);
 
             preparedStatement.setLong(1, employee.getId());
 
@@ -124,7 +124,6 @@ public class EmployeeService extends Util {
     }
 
 }
-
 
 
 
