@@ -1,13 +1,22 @@
-package com.javateam.medicalcenter.appointments.domain;
+package com.javateam.medicalcenter.service;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.sun.istack.NotNull;
 import lombok.Getter;
+import org.springframework.core.annotation.AliasFor;
+import org.springframework.stereotype.Component;
 
-public interface RegisterPatientUseCase {
+import java.lang.annotation.*;
 
-    void registerPatient();
 
+@Target({ElementType.TYPE})
+@Retention(RetentionPolicy.CLASS)
+@Documented
+@Component
+public @interface UseCaseInterfaceAsAnnotation {
+
+    @AliasFor(annotation = Component.class)
+    String value() default "";
 
     @Getter
     final class RegisterPatientCommand {
@@ -26,6 +35,5 @@ public interface RegisterPatientUseCase {
 
 
     }
-
 
 }

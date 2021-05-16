@@ -14,6 +14,5 @@ public class MedicalCenterApplication {
         util.getConnection();
 
 
-
     }
 }

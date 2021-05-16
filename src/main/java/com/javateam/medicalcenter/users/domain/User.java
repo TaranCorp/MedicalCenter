@@ -3,10 +3,9 @@ package com.javateam.medicalcenter.users.domain;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.apache.commons.math3.random.RandomDataGenerator;
 
 import javax.persistence.*;
-import java.sql.Time;
-import java.util.List;
 
 @Entity
 @Table(name="USERS")
@@ -17,13 +16,24 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public abstract class User {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")
-    private Long id;
+
+    long leftLimit = 1000000L;
+    long rightLimit = 3000000L;
+    long id = new RandomDataGenerator().nextLong(leftLimit, rightLimit);
+
+    public Long getId () {
+        return id;
+    }
+
     @Column(name = "LOGIN")
     private String login;
     @Column(name = "PASSWORD")
     private String password;
+
+
 
 }

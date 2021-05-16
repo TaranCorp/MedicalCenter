@@ -1,6 +1,6 @@
 package com.javateam.medicalcenter.appointments.domain;
 
-import com.javateam.medicalcenter.employees.domain.Doctor;
+import com.javateam.medicalcenter.doctors.domain.Doctor;
 import com.javateam.medicalcenter.patients.domain.Patient;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,6 +13,7 @@ import java.time.LocalTime;
 @Table(name="APPOINTMENT")
 @Data
 @NoArgsConstructor
+
 public class Appointment {
     @Id
     @GeneratedValue

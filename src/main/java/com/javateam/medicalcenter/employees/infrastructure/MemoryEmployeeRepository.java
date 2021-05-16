@@ -49,11 +49,62 @@ public class MemoryEmployeeRepository implements EmployeeRepository {
                     userRepository.save(employee);
                     return UpdateEmployeeResponse.SUCCESS;
                 })
-                .orElseGet(() -> new UpdateEmployeeResponse(false, Collections.singletonList("Employee not found with id: " + command.getId())));
+                .orElseGet(() -> new UpdateEmployeeResponse(false,
+                        Collections.singletonList("Employee not found with id: " + command.getId())));
     }
 
     @Override
     public void removeById(Employee employee) {
         //
+    }
+
+    @Override
+    public <S extends Employee> Iterable<S> saveAll(Iterable<S> entities) {
+        return null;
+    }
+
+    @Override
+    public Optional<Employee> findById(Long aLong) {
+        return Optional.empty();
+    }
+
+    @Override
+    public boolean existsById(Long aLong) {
+        return false;
+    }
+
+    @Override
+    public Iterable<Employee> findAll() {
+        return null;
+    }
+
+    @Override
+    public Iterable<Employee> findAllById(Iterable<Long> longs) {
+        return null;
+    }
+
+    @Override
+    public long count() {
+        return 0;
+    }
+
+    @Override
+    public void deleteById(Long aLong) {
+
+    }
+
+    @Override
+    public void delete(Employee entity) {
+
+    }
+
+    @Override
+    public void deleteAll(Iterable<? extends Employee> entities) {
+
+    }
+
+    @Override
+    public void deleteAll() {
+
     }
 }

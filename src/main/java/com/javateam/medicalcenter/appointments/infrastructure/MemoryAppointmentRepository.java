@@ -1,7 +1,7 @@
 package com.javateam.medicalcenter.appointments.infrastructure;
 
 import com.javateam.medicalcenter.appointments.domain.Appointment;
-import com.javateam.medicalcenter.employees.domain.Doctor;
+import com.javateam.medicalcenter.doctors.domain.Doctor;
 import com.javateam.medicalcenter.patients.domain.Patient;
 import com.javateam.medicalcenter.appointments.domain.AppointmentRepository;
 import org.springframework.stereotype.Service;

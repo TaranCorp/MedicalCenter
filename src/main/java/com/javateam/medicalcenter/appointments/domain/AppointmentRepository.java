@@ -1,6 +1,6 @@
 package com.javateam.medicalcenter.appointments.domain;
 
-import com.javateam.medicalcenter.employees.domain.Doctor;
+import com.javateam.medicalcenter.doctors.domain.Doctor;
 import com.javateam.medicalcenter.patients.domain.Patient;
 import org.springframework.data.repository.CrudRepository;
 
