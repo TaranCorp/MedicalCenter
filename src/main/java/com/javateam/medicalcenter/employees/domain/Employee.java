@@ -5,21 +5,20 @@ import com.javateam.medicalcenter.users.domain.User;
 import lombok.*;
 import org.hibernate.boot.model.naming.PhysicalNamingStrategy;
 import org.springframework.context.annotation.Scope;
-import org.springframework.stereotype.Component;
-
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.sql.Time;
 
-@Table(name = "TBL_EMPLOYEES")
+@Table(name = "EMPLOYEES")
 @DiscriminatorValue("Employee")
 @Entity
 @Data
-@Component
 @Scope("prototype")
+//@Setter(value=AccessLevel.NONE)
 public abstract class Employee extends User implements PhysicalNamingStrategy {
 
-    @Column(name = "ID")
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Override
     public Long getId() {
         return super.getId();
@@ -43,7 +42,8 @@ public abstract class Employee extends User implements PhysicalNamingStrategy {
 
     private String email;
 
-    @ManyToOne
+    @OneToMany
+    @JoinColumn(name = "id", nullable = false)
     private Appointment appointment;
 
 }
