@@ -8,9 +8,8 @@ import javax.persistence.*;
 
 @Entity
 @Table(name="USERS")
-@Inheritance(strategy= InheritanceType.JOINED)
+@Inheritance(strategy= InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "USER_TYPE", discriminatorType = DiscriminatorType.STRING)
-// Add @DiscriminatorValue("type_of_user) at each child-class that follows.
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
