@@ -30,7 +30,6 @@ public interface EmployeeCatalogUseCase {
         Long id;
         String name;
         String surname;
-        String employeePosition;
         int hireDate;
         BigDecimal salary;
         Long pesel;
@@ -43,9 +42,6 @@ public interface EmployeeCatalogUseCase {
             }
             if (surname != null) {
                 employee.setSurname(surname);
-            }
-            if (employeePosition != null) {
-                employee.setEmployeePosition(employeePosition);
             }
             if (hireDate != 0) {
                 employee.setHireDate(hireDate);

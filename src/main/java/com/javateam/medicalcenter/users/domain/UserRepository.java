@@ -1,12 +1,7 @@
 package com.javateam.medicalcenter.users.domain;
 
-import java.util.List;
-import java.util.Optional;
+import org.springframework.data.repository.CrudRepository;
 
-public interface UserRepository {
+public interface UserRepository extends CrudRepository<User, Long>  {
 
-    Optional<User> getById(Long id);
-    List<User> getAll();
-    User save(User user);
-    void removeById(Long id);
 }
