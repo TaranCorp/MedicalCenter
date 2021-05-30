@@ -1,0 +1,34 @@
+<!--Make sure the templates name is matching return value of a string (return "name")-->
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Staff</title>
+</head>
+<body>
+<h1>Our Specialists</h1>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Job Title</th>
+        <th>Email</th>
+    </tr>
+    <tr th:each="Employee : ${employee}">
+
+        <td th:text="${employee.name}">John</td>
+        <td th:text="${employee.surname}">Doe</td>
+        <td th:text="${employee.jobTitle}">Doc</td>
+        <td th:text="${employee.email}">john.doe@frontbackend.com</td>
+    </tr>
+</table>
+
+
+</body>
+</html>
+
+
+
+

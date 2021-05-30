@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Chuck",
+    "surname": "Norris",
+    "jobTitle": "Surgeon",
+    "email": "chuck.norris@medicalcenter.com"
+  },
+  {
+    "name": "Cliff",
+    "surname": "Booth",
+    "jobTitle": "Dentist",
+    "email": "cliff.booth@medicalcenter.com"
+  },
+  {
+    "anme": "Sean",
+    "surname": "Connery",
+    "jobTitle": "Chiropractor",
+    "email": "sean.connery@medicalcenter.com"
+  }
+]

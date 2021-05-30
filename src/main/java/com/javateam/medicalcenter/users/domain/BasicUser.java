@@ -20,7 +20,7 @@ public abstract class BasicUser extends User {
         private boolean isMale;
         private String email;
         @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-        @JoinColumn(name = "appointment_id")
+//        @JoinColumn(name = "appointment_id")
         private List<Appointment> appointments;
 
 }
