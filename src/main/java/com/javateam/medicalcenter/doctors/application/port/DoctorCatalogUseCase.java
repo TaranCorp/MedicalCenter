@@ -18,6 +18,8 @@ public interface DoctorCatalogUseCase {
 
     Optional<Doctor> findById(Long id);
 
+    List<Doctor> findByName(String name);
+
     List<Doctor> findBySurname(String surname);
 
     List<Doctor> findByNameAndSurname(String name, String surname);

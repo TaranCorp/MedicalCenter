@@ -28,6 +28,11 @@ class DoctorService implements DoctorCatalogUseCase {
     }
 
     @Override
+    public List<Doctor> findByName(String name) {
+        return repository.findByNameContainsIgnoreCase(name);
+    }
+
+    @Override
     public List<Doctor> findBySurname(String surname) {
         return repository.findBySurnameContainsIgnoreCase(surname);
     }

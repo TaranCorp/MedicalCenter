@@ -11,6 +11,8 @@ public interface DoctorRepository extends CrudRepository<Doctor, Long> {
 
     List<Doctor> findAll();
 
+    List<Doctor> findByNameContainsIgnoreCase(String name);
+
     List<Doctor> findBySurnameContainsIgnoreCase(String surname);
 
     @Query(
