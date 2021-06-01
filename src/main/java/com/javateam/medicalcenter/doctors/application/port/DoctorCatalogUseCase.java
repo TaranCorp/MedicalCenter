@@ -22,7 +22,7 @@ public interface DoctorCatalogUseCase {
 
     List<Doctor> findByNameAndSurname(String name, String surname);
 
-    List<Doctor> findBySpecialization(Specialization specialization);
+    List<Doctor> findBySpecialization(String specialization);
 
     Doctor addDoctor(CreateDoctorCommand command);
 
@@ -48,6 +48,7 @@ public interface DoctorCatalogUseCase {
     @Builder
     @AllArgsConstructor
     class UpdateDoctorCommand {
+        Long id;
         Specialization specialization;
         int hireDate;
         BigDecimal salary;
@@ -55,7 +56,6 @@ public interface DoctorCatalogUseCase {
         String surname;
         Long pesel;
         Time dateOfBirth;
-        boolean isMale;
         String email;
     }
 
