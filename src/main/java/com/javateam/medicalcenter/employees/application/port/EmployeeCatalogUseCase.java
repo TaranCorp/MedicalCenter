@@ -27,7 +27,6 @@ public interface EmployeeCatalogUseCase {
     @Builder
     @AllArgsConstructor
     class UpdateEmployeeCommand {
-        Long id;
         String name;
         String surname;
         int hireDate;

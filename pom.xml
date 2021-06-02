@@ -15,6 +15,8 @@
     <description>MedicalCenter</description>
     <properties>
         <java.version>11</java.version>
+        <commons.lang.version>3.11</commons.lang.version>
+        <commons.math.version>3.6.1</commons.math.version>
     </properties>
     <dependencies>
 
@@ -24,7 +26,19 @@
             <optional>true</optional>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+            <version>${commons.math.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons.lang.version}</version>
+        </dependency>
+
         <!--Databases-->
+
         <dependency>
             <groupId>com.h2database</groupId>
             <version>1.4.196</version>
