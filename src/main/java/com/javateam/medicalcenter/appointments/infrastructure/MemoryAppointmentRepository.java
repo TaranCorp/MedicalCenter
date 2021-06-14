@@ -27,8 +27,8 @@ public class MemoryAppointmentRepository {
         return appointmentRepository.findById(id).orElse(null);
     }
 
-    Iterable<Appointment> findByPatientId(Long patientId) {
-        return appointmentRepository.findByPatientId(patientId);
+    Iterable<Appointment> findByPatient(Patient patient) {
+        return appointmentRepository.findByPatient(patient);
     }
 
     Iterable<Appointment> findByDoctor(Doctor doctor) {

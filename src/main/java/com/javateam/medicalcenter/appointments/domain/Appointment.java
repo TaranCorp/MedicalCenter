@@ -30,8 +30,9 @@ public class Appointment {
 
     private String recommendations;
 
-    @Column(name = "patient_id")
-    private Long patientId;
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "patient_id")
+    private Patient patient;
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name="doctor_id")

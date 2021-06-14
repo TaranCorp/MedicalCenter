@@ -18,7 +18,6 @@ public class Patient extends BasicUser {
     @Id
     @GeneratedValue
     private Long patientId;
-    @OneToMany(cascade = CascadeType.ALL)
-    @JoinColumn(name="appointment_id")
+    @OneToMany(mappedBy="patient")
     private List<Appointment> appointments;
 }
