@@ -1,4 +1,4 @@
-package com.javateam.medicalcenter.employees.domain;
+package com.javateam.medicalcenter.doctors.domain;
 
 import org.apache.commons.lang3.StringUtils;
 

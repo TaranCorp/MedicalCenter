@@ -1,6 +1,5 @@
 package com.javateam.medicalcenter.doctors.domain;
 
-import com.javateam.medicalcenter.employees.domain.Specialization;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;

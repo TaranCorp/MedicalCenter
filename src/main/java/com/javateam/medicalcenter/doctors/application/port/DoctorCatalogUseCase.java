@@ -1,7 +1,7 @@
 package com.javateam.medicalcenter.doctors.application.port;
 
 import com.javateam.medicalcenter.doctors.domain.Doctor;
-import com.javateam.medicalcenter.employees.domain.Specialization;
+import com.javateam.medicalcenter.doctors.domain.Specialization;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Value;
