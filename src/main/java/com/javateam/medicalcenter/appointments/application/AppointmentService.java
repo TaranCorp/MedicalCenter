@@ -1,4 +1,4 @@
-package com.javateam.medicalcenter.appointments.infrastructure;
+package com.javateam.medicalcenter.appointments.application;
 
 import com.javateam.medicalcenter.appointments.domain.Appointment;
 import com.javateam.medicalcenter.doctors.domain.Doctor;
@@ -7,10 +7,10 @@ import com.javateam.medicalcenter.appointments.domain.AppointmentRepository;
 import org.springframework.stereotype.Service;
 
 @Service
-public class MemoryAppointmentRepository {
+public class AppointmentService {
     private final AppointmentRepository appointmentRepository;
 
-    public MemoryAppointmentRepository(AppointmentRepository appointmentRepository) {
+    public AppointmentService(AppointmentRepository appointmentRepository) {
         this.appointmentRepository = appointmentRepository;
     }
 

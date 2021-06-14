@@ -2,15 +2,15 @@ package com.javateam.medicalcenter.service;
 
 import com.javateam.medicalcenter.appointments.domain.Appointment;
 import com.javateam.medicalcenter.appointments.domain.AppointmentRepository;
-import com.javateam.medicalcenter.appointments.infrastructure.MemoryAppointmentRepository;
+import com.javateam.medicalcenter.appointments.application.AppointmentService;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.mockito.Mockito.*;
 
-class MemoryAppointmentRepositoryTest {
+class AppointmentServiceTest {
     AppointmentRepository appointmentRepository = mock(AppointmentRepository.class);
-    MemoryAppointmentRepository service = new MemoryAppointmentRepository(appointmentRepository);
+    AppointmentService service = new AppointmentService(appointmentRepository);
 
     @Test
     void add_whenNotNull_expectAdding() {
