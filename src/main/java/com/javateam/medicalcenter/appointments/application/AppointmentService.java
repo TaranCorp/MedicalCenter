@@ -4,15 +4,13 @@ import com.javateam.medicalcenter.appointments.domain.Appointment;
 import com.javateam.medicalcenter.doctors.domain.Doctor;
 import com.javateam.medicalcenter.patients.domain.Patient;
 import com.javateam.medicalcenter.appointments.domain.AppointmentRepository;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 @Service
+@RequiredArgsConstructor
 public class AppointmentService {
     private final AppointmentRepository appointmentRepository;
-
-    public AppointmentService(AppointmentRepository appointmentRepository) {
-        this.appointmentRepository = appointmentRepository;
-    }
 
     public Appointment addAppointment(Appointment appointment) {
         //todo: check if exists
@@ -27,11 +25,11 @@ public class AppointmentService {
         return appointmentRepository.findById(id).orElse(null);
     }
 
-    Iterable<Appointment> findByPatient(Patient patient) {
+    public Iterable<Appointment> findByPatient(Patient patient) {
         return appointmentRepository.findByPatient(patient);
     }
 
-    Iterable<Appointment> findByDoctor(Doctor doctor) {
+    public Iterable<Appointment> findByDoctor(Doctor doctor) {
         return appointmentRepository.findByDoctor(doctor);
     }
 }
