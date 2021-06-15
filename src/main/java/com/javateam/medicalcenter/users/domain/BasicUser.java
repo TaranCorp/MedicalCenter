@@ -8,7 +8,7 @@ import javax.persistence.*;
 import java.sql.Time;
 import java.util.List;
 
-@Entity
+@MappedSuperclass
 @Data
 @NoArgsConstructor
 public abstract class BasicUser extends User {
@@ -19,8 +19,5 @@ public abstract class BasicUser extends User {
         private Time dateOfBirth;
         private boolean isMale;
         private String email;
-        @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-        @JoinColumn(name = "appointment_id")
-        private List<Appointment> appointments;
 
 }
