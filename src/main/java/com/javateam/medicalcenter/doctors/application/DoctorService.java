@@ -1,16 +1,21 @@
 package com.javateam.medicalcenter.doctors.application;
 
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.javateam.medicalcenter.doctors.application.port.DoctorCatalogUseCase;
 import com.javateam.medicalcenter.doctors.domain.Doctor;
 import com.javateam.medicalcenter.doctors.domain.DoctorRepository;
-import com.javateam.medicalcenter.employees.domain.Specialization;
+import com.javateam.medicalcenter.doctors.domain.Specialization;
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
+@Slf4j
 @Service
 @AllArgsConstructor
 class DoctorService implements DoctorCatalogUseCase {
@@ -101,5 +106,20 @@ class DoctorService implements DoctorCatalogUseCase {
             doctor.setSalary(command.getSalary());
         }
         return doctor;
+    }
+    public List<Doctor> mockDoctors() {
+
+        ObjectMapper objectMapper = new ObjectMapper();
+
+        try {
+            return objectMapper.readValue(getClass().getClassLoader()
+                            .getResourceAsStream("mockedDoctors.json"),
+                    new TypeReference<>() {
+                    });
+        } catch (IOException e) {
+            log.error(e.getMessage(), e);
+        }
+        return null;
+
     }
 }

@@ -17,6 +17,7 @@ import java.time.LocalTime;
 public class Appointment {
     @Id
     @GeneratedValue
+    @Column(name="appointment_id")
     private Long id;
 
     private LocalDate appDate;
@@ -29,10 +30,12 @@ public class Appointment {
 
     private String recommendations;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "patient_id")
     private Patient patient;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name="doctor_id")
     private Doctor doctor;
 
 }
