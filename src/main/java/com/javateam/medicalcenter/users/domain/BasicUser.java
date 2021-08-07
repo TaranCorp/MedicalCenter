@@ -1,12 +1,10 @@
 package com.javateam.medicalcenter.users.domain;
 
-import com.javateam.medicalcenter.appointments.domain.Appointment;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.sql.Time;
-import java.util.List;
 
 @MappedSuperclass
 @Data

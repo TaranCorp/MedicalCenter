@@ -10,11 +10,11 @@ import java.sql.SQLException;
 public class Util {
 
     private static final String DB_URL = "jdbc:h2:mem:;DB_CLOSE_DELAY=-1";
-    private static final String DB_USERNAME = "";
-    private static final String DB_PASSWORD = "";
+    private static final String DB_USERNAME = "ss";
+    private static final String DB_PASSWORD = "ss";
     Connection connection;
 
-    public Connection getConnection() {
+    public Connection getConnection(String DB_USERNAME, String DB_PASSWORD) {
 
         try (Connection connection = DriverManager.getConnection(DB_URL, DB_USERNAME, DB_PASSWORD)) {
             System.out.println("Connected");

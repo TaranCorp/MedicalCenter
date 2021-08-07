@@ -4,6 +4,7 @@ import com.javateam.medicalcenter.doctors.domain.Doctor;
 import com.javateam.medicalcenter.patients.domain.Patient;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -13,6 +14,7 @@ import java.time.LocalTime;
 @Table(name="APPOINTMENT")
 @Data
 @NoArgsConstructor
+@EnableAutoConfiguration
 
 public class Appointment {
     @Id
