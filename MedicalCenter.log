@@ -1,0 +1,711 @@
+2021-08-03 17:37:55,948 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 20212 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-03 17:37:55,959 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-03 17:37:56,718 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-03 17:37:56,781 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces. 
+2021-08-03 17:37:57,497 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-03 17:37:57,512 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-03 17:37:57,513 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-03 17:37:57,513 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-03 17:37:57,611 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-03 17:37:57,612 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1607 ms 
+2021-08-03 17:37:57,661 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-03 17:37:57,831 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-03 17:37:57,839 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:test' 
+2021-08-03 17:37:57,988 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-03 17:37:58,092 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-03 17:37:58,344 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-03 17:37:58,518 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-03 17:37:59,494 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-03 17:37:59,524 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-03 17:38:00,118 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-03 17:38:00,245 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-03 17:38:00,506 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-03 17:38:00,550 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-03 17:38:00,562 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 5.031 seconds (JVM running for 7.062) 
+2021-08-03 17:38:22,281 http-nio-8080-exec-1 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-08-03 17:38:22,281 http-nio-8080-exec-1 [INFO] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-08-03 17:38:22,282 http-nio-8080-exec-1 [INFO] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021-08-03 17:38:22,356 http-nio-8080-exec-1 [INFO] com.javateam.medicalcenter.MedicalCenterErrorController - Handling HTTP Error  
+2021-08-03 17:38:22,357 http-nio-8080-exec-1 [ERROR] com.javateam.medicalcenter.MedicalCenterErrorController - ERROR 404... 
+2021-08-03 17:38:22,404 http-nio-8080-exec-2 [INFO] com.javateam.medicalcenter.MedicalCenterErrorController - Handling HTTP Error  
+2021-08-03 17:38:22,404 http-nio-8080-exec-2 [ERROR] com.javateam.medicalcenter.MedicalCenterErrorController - ERROR 404... 
+2021-08-03 17:38:24,465 http-nio-8080-exec-3 [INFO] com.javateam.medicalcenter.MedicalCenterErrorController - Handling HTTP Error  
+2021-08-03 17:38:24,466 http-nio-8080-exec-3 [ERROR] com.javateam.medicalcenter.MedicalCenterErrorController - ERROR 404... 
+2021-08-03 17:38:25,343 http-nio-8080-exec-4 [INFO] com.javateam.medicalcenter.MedicalCenterErrorController - Handling HTTP Error  
+2021-08-03 17:38:25,343 http-nio-8080-exec-4 [ERROR] com.javateam.medicalcenter.MedicalCenterErrorController - ERROR 404... 
+2021-08-03 17:40:54,462 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-03 17:40:54,463 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-03 17:40:54,467 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-03 17:40:54,471 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-03 17:40:59,841 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 20271 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-03 17:40:59,853 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-03 17:41:00,602 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-03 17:41:00,663 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces. 
+2021-08-03 17:41:01,265 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-03 17:41:01,278 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-03 17:41:01,279 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-03 17:41:01,279 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-03 17:41:01,388 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-03 17:41:01,388 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1489 ms 
+2021-08-03 17:41:01,435 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-03 17:41:01,568 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-03 17:41:01,576 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:test' 
+2021-08-03 17:41:01,706 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-03 17:41:01,769 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-03 17:41:01,936 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-03 17:41:02,055 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-03 17:41:02,878 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-03 17:41:02,888 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-03 17:41:03,495 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-03 17:41:03,619 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-03 17:41:03,860 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-03 17:41:03,897 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-03 17:41:03,908 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 4.518 seconds (JVM running for 5.842) 
+2021-08-03 17:41:47,435 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-03 17:41:47,436 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-03 17:41:47,441 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-03 17:41:47,444 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-03 17:41:50,756 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 20288 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-03 17:41:50,766 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-03 17:41:51,440 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-03 17:41:51,499 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces. 
+2021-08-03 17:41:52,071 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-03 17:41:52,088 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-03 17:41:52,089 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-03 17:41:52,090 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-03 17:41:52,195 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-03 17:41:52,196 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1383 ms 
+2021-08-03 17:41:52,235 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-03 17:41:52,396 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-03 17:41:52,404 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:test' 
+2021-08-03 17:41:52,511 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-03 17:41:52,589 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-03 17:41:52,806 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-03 17:41:52,953 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-03 17:41:53,783 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-03 17:41:53,793 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-03 17:41:54,346 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-03 17:41:54,470 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-03 17:41:54,692 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-03 17:41:54,724 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-03 17:41:54,734 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 4.355 seconds (JVM running for 5.331) 
+2021-08-03 17:48:31,274 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-03 17:48:31,275 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-03 17:48:31,279 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-03 17:48:31,282 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-06 17:17:35,318 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 7398 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-06 17:17:35,329 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-06 17:17:36,125 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-06 17:17:36,197 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces. 
+2021-08-06 17:17:36,850 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-06 17:17:36,872 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-06 17:17:36,874 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-06 17:17:36,874 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-06 17:17:37,001 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-06 17:17:37,001 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1629 ms 
+2021-08-06 17:17:37,045 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-06 17:17:37,175 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-06 17:17:37,181 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:test' 
+2021-08-06 17:17:37,308 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-06 17:17:37,394 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-06 17:17:37,645 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-06 17:17:37,812 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-06 17:17:38,718 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-06 17:17:38,733 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-06 17:17:39,372 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-06 17:17:39,509 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-06 17:17:39,762 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-06 17:17:39,798 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-06 17:17:39,811 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 4.971 seconds (JVM running for 6.431) 
+2021-08-06 17:18:41,547 http-nio-8080-exec-1 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-08-06 17:18:41,548 http-nio-8080-exec-1 [INFO] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-08-06 17:18:41,550 http-nio-8080-exec-1 [INFO] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms 
+2021-08-06 17:18:41,590 http-nio-8080-exec-1 [INFO] com.javateam.medicalcenter.MedicalCenterErrorController - Handling HTTP Error  
+2021-08-06 17:18:41,590 http-nio-8080-exec-1 [ERROR] com.javateam.medicalcenter.MedicalCenterErrorController - ERROR 404... 
+2021-08-06 17:18:45,502 http-nio-8080-exec-2 [INFO] org.apache.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level. 
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030xd7dL0xf2X0xea0xfdp0x97f30x120xc00xd80xfe0xf80xf30x10=0xbdS+0x820xe10xbd0xdc.0x8c0x9f0x94t0xc7]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:417) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2021-08-06 17:18:49,315 http-nio-8080-exec-3 [INFO] com.javateam.medicalcenter.MedicalCenterErrorController - Handling HTTP Error  
+2021-08-06 17:18:49,315 http-nio-8080-exec-3 [ERROR] com.javateam.medicalcenter.MedicalCenterErrorController - ERROR 404... 
+2021-08-06 17:18:51,285 http-nio-8080-exec-4 [INFO] com.javateam.medicalcenter.MedicalCenterErrorController - Handling HTTP Error  
+2021-08-06 17:18:51,286 http-nio-8080-exec-4 [ERROR] com.javateam.medicalcenter.MedicalCenterErrorController - ERROR 404... 
+2021-08-06 17:18:56,617 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-06 17:18:56,618 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-06 17:18:56,622 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-06 17:18:56,624 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-06 17:19:07,832 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 7415 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-06 17:19:07,839 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-06 17:19:08,359 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-06 17:19:08,396 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 2 JPA repository interfaces. 
+2021-08-06 17:19:08,747 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-06 17:19:08,756 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-06 17:19:08,757 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-06 17:19:08,758 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-06 17:19:08,808 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-06 17:19:08,809 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 929 ms 
+2021-08-06 17:19:08,840 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-06 17:19:08,892 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-06 17:19:08,897 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:test' 
+2021-08-06 17:19:08,971 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-06 17:19:09,004 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-06 17:19:09,089 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-06 17:19:09,167 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-06 17:19:09,640 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-06 17:19:09,648 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-06 17:19:10,021 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-06 17:19:10,115 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-06 17:19:10,290 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-06 17:19:10,320 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-06 17:19:10,329 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 2.889 seconds (JVM running for 3.819) 
+2021-08-06 17:20:52,047 http-nio-8080-exec-1 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-08-06 17:20:52,048 http-nio-8080-exec-1 [INFO] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2021-08-06 17:20:52,049 http-nio-8080-exec-1 [INFO] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms 
+2021-08-06 17:20:52,086 http-nio-8080-exec-1 [INFO] com.javateam.medicalcenter.MedicalCenterErrorController - Handling HTTP Error  
+2021-08-06 17:20:52,086 http-nio-8080-exec-1 [ERROR] com.javateam.medicalcenter.MedicalCenterErrorController - ERROR 404... 
+2021-08-06 17:24:35,025 HikariPool-1 housekeeper [WARN] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=26s30ms), soft-evicting connections from pool. 
+2021-08-06 17:38:03,338 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-06 17:38:03,340 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-06 17:38:03,345 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-06 17:38:03,347 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-07 13:34:51,010 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 11705 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-07 13:34:51,021 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-07 13:34:51,847 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-07 13:34:51,933 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces. 
+2021-08-07 13:34:52,562 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-07 13:34:52,573 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-07 13:34:52,574 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-07 13:34:52,575 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-07 13:34:52,669 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-07 13:34:52,669 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1608 ms 
+2021-08-07 13:34:52,722 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-07 13:34:52,859 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-07 13:34:52,867 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:test' 
+2021-08-07 13:34:53,009 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-07 13:34:53,107 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-07 13:34:53,303 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-07 13:34:53,426 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-07 13:34:54,161 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-07 13:34:54,172 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 13:34:54,756 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-07 13:34:54,894 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-07 13:34:55,138 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-07 13:34:55,173 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-07 13:34:55,184 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 4.671 seconds (JVM running for 6.281) 
+2021-08-07 13:35:58,946 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-07 13:35:58,947 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 13:35:58,951 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-07 13:35:58,954 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-07 13:36:03,170 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 11721 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-07 13:36:03,179 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-07 13:36:03,886 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-07 13:36:03,971 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces. 
+2021-08-07 13:36:04,555 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-07 13:36:04,567 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-07 13:36:04,568 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-07 13:36:04,569 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-07 13:36:04,659 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-07 13:36:04,659 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1440 ms 
+2021-08-07 13:36:04,708 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-07 13:36:04,828 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-07 13:36:04,835 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:test' 
+2021-08-07 13:36:04,955 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-07 13:36:05,020 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-07 13:36:05,189 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-07 13:36:05,327 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-07 13:36:06,129 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-07 13:36:06,137 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 13:36:06,709 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-07 13:36:06,830 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-07 13:36:07,038 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-07 13:36:07,068 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-07 13:36:07,079 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 4.292 seconds (JVM running for 5.254) 
+2021-08-07 13:37:29,573 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-07 13:37:29,574 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 13:37:29,578 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-07 13:37:29,582 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-07 13:37:34,112 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 11741 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-07 13:37:34,121 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-07 13:37:34,745 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-07 13:37:34,804 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces. 
+2021-08-07 13:37:35,325 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-07 13:37:35,337 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-07 13:37:35,338 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-07 13:37:35,339 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-07 13:37:35,441 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-07 13:37:35,441 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1284 ms 
+2021-08-07 13:37:35,479 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-07 13:37:35,616 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-07 13:37:35,624 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:test' 
+2021-08-07 13:37:35,748 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-07 13:37:35,826 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-07 13:37:35,993 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-07 13:37:36,117 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-07 13:37:36,834 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-07 13:37:36,843 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 13:37:37,418 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-07 13:37:37,552 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-07 13:37:37,773 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-07 13:37:37,811 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-07 13:37:37,823 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 4.054 seconds (JVM running for 5.138) 
+2021-08-07 13:38:43,874 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-07 13:38:43,875 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 13:38:43,880 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-07 13:38:43,883 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-07 13:38:48,467 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 11750 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-07 13:38:48,475 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-07 13:38:49,002 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-07 13:38:49,049 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces. 
+2021-08-07 13:38:49,487 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-07 13:38:49,495 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-07 13:38:49,496 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-07 13:38:49,497 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-07 13:38:49,556 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-07 13:38:49,556 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1049 ms 
+2021-08-07 13:38:49,590 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-07 13:38:49,648 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-07 13:38:49,654 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:test' 
+2021-08-07 13:38:49,754 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-07 13:38:49,797 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-07 13:38:49,892 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-07 13:38:49,995 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-07 13:38:50,564 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-07 13:38:50,572 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 13:38:50,994 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-07 13:38:51,129 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-07 13:38:51,294 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-07 13:38:51,323 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-07 13:38:51,332 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 3.239 seconds (JVM running for 4.306) 
+2021-08-07 13:43:09,399 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-07 13:43:09,401 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 13:43:09,405 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-07 13:43:09,408 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-07 13:43:13,850 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 11781 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-07 13:43:13,859 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-07 13:43:14,401 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-07 13:43:14,451 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces. 
+2021-08-07 13:43:14,847 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-07 13:43:14,853 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-07 13:43:14,853 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-07 13:43:14,854 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-07 13:43:14,907 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-07 13:43:14,907 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1014 ms 
+2021-08-07 13:43:14,936 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-07 13:43:15,001 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-07 13:43:15,005 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:test' 
+2021-08-07 13:43:15,095 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-07 13:43:15,138 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-07 13:43:15,301 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-07 13:43:15,396 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-07 13:43:16,044 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-07 13:43:16,054 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 13:43:16,495 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-07 13:43:16,598 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-07 13:43:16,769 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-07 13:43:16,796 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-07 13:43:16,804 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 3.279 seconds (JVM running for 4.36) 
+2021-08-07 13:49:20,974 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-07 13:49:20,975 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 13:49:20,979 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-07 13:49:20,982 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-07 13:55:19,082 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 11850 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-07 13:55:19,088 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-07 13:55:19,524 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-07 13:55:19,560 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 2 JPA repository interfaces. 
+2021-08-07 13:55:19,885 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-07 13:55:19,891 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-07 13:55:19,892 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-07 13:55:19,893 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-07 13:55:19,962 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-07 13:55:19,962 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 848 ms 
+2021-08-07 13:55:19,997 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-07 13:55:20,052 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-07 13:55:20,056 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:test' 
+2021-08-07 13:55:20,142 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-07 13:55:20,180 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-07 13:55:20,251 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-07 13:55:20,335 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-07 13:55:20,830 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-07 13:55:20,837 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 13:55:21,239 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-07 13:55:21,337 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-07 13:55:21,466 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-07 13:55:21,495 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-07 13:55:21,536 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 2.761 seconds (JVM running for 3.776) 
+2021-08-07 13:58:44,610 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-07 13:58:44,611 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 13:58:44,616 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-07 13:58:44,619 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-07 13:59:08,037 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 11871 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-07 13:59:08,045 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-07 13:59:08,552 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-07 13:59:08,589 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces. 
+2021-08-07 13:59:08,972 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-07 13:59:08,978 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-07 13:59:08,979 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-07 13:59:08,979 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-07 13:59:09,052 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-07 13:59:09,052 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 973 ms 
+2021-08-07 13:59:09,083 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-07 13:59:09,145 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-07 13:59:09,149 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb' 
+2021-08-07 13:59:09,240 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-07 13:59:09,283 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-07 13:59:09,396 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-07 13:59:09,483 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-07 13:59:10,045 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-07 13:59:10,054 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 13:59:10,481 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-07 13:59:10,576 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-07 13:59:10,747 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-07 13:59:10,774 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-07 13:59:10,782 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 3.111 seconds (JVM running for 4.152) 
+2021-08-07 14:01:15,911 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-07 14:01:15,913 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 14:01:15,918 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-07 14:01:15,921 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-07 14:01:20,306 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 11885 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-07 14:01:20,314 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-07 14:01:20,894 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-07 14:01:20,943 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces. 
+2021-08-07 14:01:21,360 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-07 14:01:21,366 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-07 14:01:21,367 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-07 14:01:21,367 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-07 14:01:21,424 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-07 14:01:21,425 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1073 ms 
+2021-08-07 14:01:21,456 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-07 14:01:21,515 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-07 14:01:21,519 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb' 
+2021-08-07 14:01:21,609 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-07 14:01:21,649 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-07 14:01:21,775 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-07 14:01:21,868 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-07 14:01:22,472 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-07 14:01:22,480 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 14:01:22,890 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-07 14:01:22,999 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-07 14:01:23,173 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-07 14:01:23,200 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-07 14:01:23,209 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 3.223 seconds (JVM running for 4.412) 
+2021-08-07 14:02:42,716 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-07 14:02:42,718 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 14:02:42,722 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-07 14:02:42,725 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-07 14:02:45,703 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 11897 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-07 14:02:45,712 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-07 14:02:46,248 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-07 14:02:46,284 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces. 
+2021-08-07 14:02:46,703 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-07 14:02:46,710 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-07 14:02:46,711 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-07 14:02:46,711 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-07 14:02:46,781 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-07 14:02:46,781 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1028 ms 
+2021-08-07 14:02:46,810 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-07 14:02:46,876 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-07 14:02:46,881 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb' 
+2021-08-07 14:02:46,988 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-07 14:02:47,032 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-07 14:02:47,168 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-07 14:02:47,265 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-07 14:02:47,951 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-07 14:02:47,961 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 14:02:48,411 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-07 14:02:48,527 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-07 14:02:48,707 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-07 14:02:48,736 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-07 14:02:48,745 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 3.471 seconds (JVM running for 4.396) 
+2021-08-07 14:03:47,169 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-07 14:03:47,171 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 14:03:47,174 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-07 14:03:47,177 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-07 14:03:50,258 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 11904 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-07 14:03:50,267 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-07 14:03:50,817 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-07 14:03:50,867 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces. 
+2021-08-07 14:03:51,276 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-07 14:03:51,283 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-07 14:03:51,284 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-07 14:03:51,285 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-07 14:03:51,342 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-07 14:03:51,342 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1035 ms 
+2021-08-07 14:03:51,387 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-07 14:03:51,449 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-07 14:03:51,457 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb' 
+2021-08-07 14:03:51,550 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-07 14:03:51,586 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-07 14:03:51,660 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-07 14:03:51,739 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect 
+2021-08-07 14:03:52,475 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-07 14:03:52,484 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 14:03:52,926 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-07 14:03:53,025 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-07 14:03:53,160 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-07 14:03:53,193 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-07 14:03:53,202 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 3.29 seconds (JVM running for 4.452) 
+2021-08-07 14:08:22,936 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-07 14:08:22,938 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 14:08:22,943 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-07 14:08:22,947 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-07 15:31:52,606 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 12231 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-07 15:31:52,617 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-07 15:31:53,334 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-07 15:31:53,419 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces. 
+2021-08-07 15:31:54,030 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-07 15:31:54,046 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-07 15:31:54,047 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-07 15:31:54,048 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-07 15:31:54,160 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-07 15:31:54,160 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1504 ms 
+2021-08-07 15:31:54,199 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-07 15:31:54,358 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-07 15:31:54,366 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb' 
+2021-08-07 15:31:54,497 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-07 15:31:54,595 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-07 15:31:54,822 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-07 15:31:54,984 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect 
+2021-08-07 15:31:55,874 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-07 15:31:55,900 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 15:31:56,504 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-07 15:31:56,658 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-07 15:31:56,895 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-07 15:31:56,933 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-07 15:31:56,943 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 4.706 seconds (JVM running for 5.953) 
+2021-08-07 15:35:34,542 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-07 15:35:34,544 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 15:35:34,549 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-07 15:35:34,552 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-07 15:35:37,836 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 12258 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-07 15:35:37,845 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-07 15:35:38,499 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-07 15:35:38,551 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces. 
+2021-08-07 15:35:39,083 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-07 15:35:39,096 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-07 15:35:39,097 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-07 15:35:39,098 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-07 15:35:39,197 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-07 15:35:39,197 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1319 ms 
+2021-08-07 15:35:39,236 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-07 15:35:39,381 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-07 15:35:39,388 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb' 
+2021-08-07 15:35:39,513 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-07 15:35:39,601 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-07 15:35:39,817 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-07 15:35:39,958 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-07 15:35:40,799 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-07 15:35:40,809 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 15:35:41,378 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-07 15:35:41,554 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-07 15:35:41,794 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-07 15:35:41,837 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-07 15:35:41,850 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 4.348 seconds (JVM running for 5.539) 
+2021-08-07 15:36:00,527 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-07 15:36:00,529 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 15:36:00,535 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-07 15:36:00,540 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-07 15:36:03,627 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 12267 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-07 15:36:03,637 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-07 15:36:04,192 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-07 15:36:04,232 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces. 
+2021-08-07 15:36:04,637 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-07 15:36:04,644 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-07 15:36:04,645 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-07 15:36:04,645 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-07 15:36:04,723 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-07 15:36:04,724 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1039 ms 
+2021-08-07 15:36:04,755 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-07 15:36:04,808 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-07 15:36:04,813 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb' 
+2021-08-07 15:36:04,902 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-07 15:36:04,938 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-07 15:36:05,016 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-07 15:36:05,078 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect 
+2021-08-07 15:36:05,552 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-07 15:36:05,564 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 15:36:06,058 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-07 15:36:06,184 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-07 15:36:06,362 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-07 15:36:06,393 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-07 15:36:06,403 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 3.182 seconds (JVM running for 4.137) 
+2021-08-07 15:36:31,282 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-07 15:36:31,284 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 15:36:31,289 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-07 15:36:31,292 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-07 15:36:34,368 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 12275 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-07 15:36:34,377 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-07 15:36:34,970 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-07 15:36:35,009 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces. 
+2021-08-07 15:36:35,374 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-07 15:36:35,381 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-07 15:36:35,382 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-07 15:36:35,382 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-07 15:36:35,453 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-07 15:36:35,453 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1036 ms 
+2021-08-07 15:36:35,486 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-07 15:36:35,539 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-07 15:36:35,544 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb' 
+2021-08-07 15:36:35,628 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-07 15:36:35,661 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-07 15:36:35,728 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-07 15:36:35,788 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-07 15:36:36,206 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-07 15:36:36,213 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 15:36:36,619 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-07 15:36:36,748 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-07 15:36:36,943 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-07 15:36:36,980 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-07 15:36:36,991 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 3.005 seconds (JVM running for 3.955) 
+2021-08-07 15:36:53,064 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-07 15:36:53,065 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 15:36:53,071 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-07 15:36:53,075 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-07 15:36:55,916 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 12284 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-07 15:36:55,923 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-07 15:36:56,473 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-07 15:36:56,528 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces. 
+2021-08-07 15:36:57,015 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-07 15:36:57,023 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-07 15:36:57,024 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-07 15:36:57,025 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-07 15:36:57,091 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-07 15:36:57,091 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1127 ms 
+2021-08-07 15:36:57,135 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-07 15:36:57,214 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-07 15:36:57,220 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb' 
+2021-08-07 15:36:57,341 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-07 15:36:57,383 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-07 15:36:57,515 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-07 15:36:57,624 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-07 15:36:58,323 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-07 15:36:58,333 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 15:36:58,786 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-07 15:36:58,883 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-07 15:36:59,052 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-07 15:36:59,083 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-07 15:36:59,093 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 3.595 seconds (JVM running for 4.517) 
+2021-08-07 15:37:20,598 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-07 15:37:20,599 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 15:37:20,602 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-07 15:37:20,605 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-07 15:37:23,253 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 12291 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-07 15:37:23,263 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-07 15:37:23,743 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-07 15:37:23,778 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces. 
+2021-08-07 15:37:24,173 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-07 15:37:24,180 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-07 15:37:24,181 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-07 15:37:24,181 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-07 15:37:24,237 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-07 15:37:24,238 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 936 ms 
+2021-08-07 15:37:24,273 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-07 15:37:24,332 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-07 15:37:24,337 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:test' 
+2021-08-07 15:37:24,426 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-07 15:37:24,467 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-07 15:37:24,589 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-07 15:37:24,679 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-07 15:37:25,256 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-07 15:37:25,264 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 15:37:25,750 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-07 15:37:25,860 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-07 15:37:26,040 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-07 15:37:26,078 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-07 15:37:26,088 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 3.137 seconds (JVM running for 3.931) 
+2021-08-07 15:37:45,151 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-07 15:37:45,152 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 15:37:45,155 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-07 15:37:45,158 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-07 15:37:48,164 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 12297 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-07 15:37:48,171 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-07 15:37:48,741 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-07 15:37:48,794 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces. 
+2021-08-07 15:37:49,252 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-07 15:37:49,259 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-07 15:37:49,260 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-07 15:37:49,261 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-07 15:37:49,340 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-07 15:37:49,340 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1132 ms 
+2021-08-07 15:37:49,385 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-07 15:37:49,455 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-07 15:37:49,462 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb' 
+2021-08-07 15:37:49,565 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-07 15:37:49,613 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-07 15:37:49,715 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-07 15:37:49,784 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-07 15:37:50,235 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-07 15:37:50,243 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 15:37:50,679 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-07 15:37:50,809 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-07 15:37:50,970 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-07 15:37:51,001 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-07 15:37:51,012 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 3.226 seconds (JVM running for 4.377) 
+2021-08-07 15:38:31,202 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-07 15:38:31,203 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 15:38:31,206 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-07 15:38:31,210 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-07 15:38:34,288 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 12308 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-07 15:38:34,297 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-07 15:38:34,855 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-07 15:38:34,898 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces. 
+2021-08-07 15:38:35,223 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-07 15:38:35,229 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-07 15:38:35,230 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-07 15:38:35,230 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-07 15:38:35,304 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-07 15:38:35,304 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 972 ms 
+2021-08-07 15:38:35,345 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-07 15:38:35,411 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-07 15:38:35,416 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb' 
+2021-08-07 15:38:35,504 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-07 15:38:35,543 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-07 15:38:35,632 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-07 15:38:35,722 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-07 15:38:36,277 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-07 15:38:36,287 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 15:38:36,784 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-07 15:38:36,898 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-07 15:38:37,057 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-07 15:38:37,086 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-07 15:38:37,095 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 3.167 seconds (JVM running for 4.171) 
+2021-08-07 15:42:55,441 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-07 15:42:55,442 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 15:42:55,448 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-07 15:42:55,452 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-08-07 15:42:58,950 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Starting MedicalCenterApplication using Java 11.0.8 on alxndrpro.local with PID 12339 (/Users/alxndr/Dev/MedicalCenter/target/classes started by alxndr in /Users/alxndr/Dev/MedicalCenter) 
+2021-08-07 15:42:58,960 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - No active profile set, falling back to default profiles: default 
+2021-08-07 15:42:59,738 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-08-07 15:42:59,791 main [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces. 
+2021-08-07 15:43:00,268 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+2021-08-07 15:43:00,277 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2021-08-07 15:43:00,278 main [INFO] org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2021-08-07 15:43:00,279 main [INFO] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45] 
+2021-08-07 15:43:00,368 main [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2021-08-07 15:43:00,369 main [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1364 ms 
+2021-08-07 15:43:00,415 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-08-07 15:43:00,502 main [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-08-07 15:43:00,508 main [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb' 
+2021-08-07 15:43:00,630 main [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-08-07 15:43:00,677 main [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final 
+2021-08-07 15:43:00,814 main [INFO] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-08-07 15:43:00,906 main [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-08-07 15:43:01,514 main [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-08-07 15:43:01,523 main [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 15:43:01,969 main [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-08-07 15:43:02,069 main [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-08-07 15:43:02,279 main [INFO] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2021-08-07 15:43:02,308 main [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-08-07 15:43:02,317 main [INFO] com.javateam.medicalcenter.MedicalCenterApplication - Started MedicalCenterApplication in 3.726 seconds (JVM running for 4.918) 
+2021-08-07 15:43:56,772 SpringContextShutdownHook [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-08-07 15:43:56,773 SpringContextShutdownHook [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-08-07 15:43:56,778 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-08-07 15:43:56,781 SpringContextShutdownHook [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
